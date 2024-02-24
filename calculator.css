@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: silver;
+}
+
+.container {
+    background-color: black;
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 10px 20px 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+
+}
+
+.display {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border: none;
+    text-align: right;
+    margin-bottom: 10px;
+    pointer-events: none;
+    background-color: white;
+    border-radius: 6px;
+}
+
+.buttons {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+.buttons button {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.buttons button:active {
+    transform: scale(0.99);
+
+}
+
+.operator {
+    color: white;
+    background-color: dodgerblue;
+}
+
+.operator1 {
+    background-color: white;
+    color: black;
+}
+
+.operator2 {
+    background-color: orangered;
+}
+
+.operator3 {
+    background-color: lawngreen;
+    color: white;
+}
+
+.operator4 {
+    background-color: black;
+    color: orangered;
+}
+
+.operator5 {
+    background-color: black;
+}
